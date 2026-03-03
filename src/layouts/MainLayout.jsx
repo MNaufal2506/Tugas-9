@@ -3,7 +3,7 @@ import { Outlet, NavLink } from "react-router";
 export default function MainLayout() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <nav className="bg-linear-to-r from-yellow-600 to-yellow-600 text-white shadow-md">
+      <nav className="bg-linear-to-r from-yellow-300 to-yellow-500 text-white shadow-md">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-xl font-bold tracking-wide">Edukasi</h1>
 

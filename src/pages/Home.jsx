@@ -5,10 +5,9 @@ export default function Home() {
   return (
     <div className="space-y-20">
 
-      {/* HERO SECTION */}
       <section className="text-center py-20 bg-linear-to-r from-yellow-300 to-yellow-400 text-white rounded-3xl shadow-xl">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
-          Upgrade Your Skills 🚀
+          Tingkatkan Skillmu 🚀
         </h1>
 
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-90">
@@ -18,17 +17,16 @@ export default function Home() {
 
         <Link
           to="/courses"
-          className="bg-white text-blue-600 font-semibold px-8 py-3 rounded-xl shadow hover:scale-105 transition"
+          className="bg-white text-yellow-300 font-semibold px-8 py-3 rounded-xl shadow hover:scale-105 transition"
         >
           Explore Courses
         </Link>
       </section>
 
-      {/* COURSE PREVIEW SECTION */}
       <section>
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-3xl font-bold text-gray-800">
-            Popular Courses
+            Kursus Terpopuler
           </h2>
 
           <Link
